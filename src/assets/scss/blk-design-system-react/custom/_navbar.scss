@@ -4,6 +4,10 @@
   z-index: 1050;
   background: #000000;
 
+  .container {
+    align-items: flex-end;
+  }
+
   .photo {
     display: inline-block;
     height: 30px;

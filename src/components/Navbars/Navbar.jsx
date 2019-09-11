@@ -1,5 +1,7 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React              from "react";
+import { Link }           from "react-router-dom";
+import {faSearch}                 from "@fortawesome/free-solid-svg-icons"
+import {FontAwesomeIcon}  from "@fortawesome/react-fontawesome"
 // reactstrap components
 import {
   Collapse,
@@ -160,7 +162,7 @@ class PagesNavbar extends React.Component {
               </NavItem>
               <NavItem>
                 <NavLink onClick={e => e.preventDefault()}>
-                  <i aria-hidden={true} className="tim-icons icon-zoom-split"/>
+                  <FontAwesomeIcon icon={faSearch} style={{ width: '20px', height: '20px'}}/>
                 </NavLink>
               </NavItem>
             </Nav>
