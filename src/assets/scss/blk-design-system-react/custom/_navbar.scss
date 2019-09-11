@@ -2,7 +2,7 @@
   padding: $navbar-padding-x;
   width: $full-width;
   z-index: 1050;
-  background: $primary;
+  background: #000000;
 
   .photo {
     display: inline-block;
@@ -37,10 +37,11 @@
     color: $white;
   }
 
-  .btn{
+  .btn {
     margin: 0 5px 0 10px;
   }
-  p{
+  p {
+    font-weight: 600;
     margin: 0;
   }
 
@@ -120,10 +121,13 @@
     padding-top: .3125rem;
     padding-bottom: .3125rem;
     color: $white;
-    text-transform: capitalize;
-    font-size: $font-paragraph;
+    text-transform: lowercase;
+    font-size: 12px;
+    display: grid;
     span{
+      font-size: 24px;
       font-weight: $font-weight-bold;
+      text-transform: capitalize;
     }
   }
 
