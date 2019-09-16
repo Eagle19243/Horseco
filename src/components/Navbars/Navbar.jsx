@@ -125,7 +125,13 @@ class PagesNavbar extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu aria-labelledby="navbar_dropdown_auctions">
                   <DropdownItem onClick={e => e.preventDefault}>
-                    Item1
+                    Current Auctions
+                  </DropdownItem>
+                  <DropdownItem onClick={e => e.preventDefault}>
+                    Calendar
+                  </DropdownItem>
+                  <DropdownItem onClick={e => e.preventDefault}>
+                    Past Auction Results
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
@@ -135,12 +141,18 @@ class PagesNavbar extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu aria-labelledby="navbar_dropdown_catalogs">
                   <DropdownItem onClick={e => e.preventDefault}>
-                    Item1
+                    Keeneland
+                  </DropdownItem>
+                  <DropdownItem onClick={e => e.preventDefault}>
+                    HorsePlace 2
+                  </DropdownItem>
+                  <DropdownItem onClick={e => e.preventDefault}>
+                    View All Catalogs
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink onClick={e => e.preventDefault()}>
+                <NavLink href="#">
                   <p>Enter a Horse</p>
                 </NavLink>
               </NavItem>
@@ -150,17 +162,23 @@ class PagesNavbar extends React.Component {
                 </DropdownToggle>
                 <DropdownMenu aria-labelledby="navbar_dropdown_about">
                   <DropdownItem onClick={e => e.preventDefault}>
-                    Item1
+                    Horseco History
+                  </DropdownItem>
+                  <DropdownItem onClick={e => e.preventDefault}>
+                    FAQs
+                  </DropdownItem>
+                  <DropdownItem onClick={e => e.preventDefault}>
+                    Contact
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
               <NavItem>
-                <NavLink onClick={e => e.preventDefault()}>
+                <NavLink href="#">
                   <p>Register/Login</p>
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink onClick={e => e.preventDefault()}>
+                <NavLink href="#">
                   <FontAwesomeIcon icon={faSearch} style={{ width: '20px', height: '20px'}}/>
                 </NavLink>
               </NavItem>
