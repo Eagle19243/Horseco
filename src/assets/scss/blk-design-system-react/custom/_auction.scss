@@ -1,0 +1,42 @@
+.auction {
+    background-image: url("../../assets/img/back_card.png");
+    background-size: 100% 100%;
+    box-shadow: 0 1px 20px 0px rgba(0, 0, 0, 0.1);
+
+    .auction-header {
+        .auction-logo {
+            margin-top: 25px;
+        }
+        .auction-title{
+            color: #000;
+            font-weight: 600;
+            margin-top: 15px;
+            font-size: 20px;
+        }
+        hr {
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .auction-body {
+        .description {
+            font-size: 14px;
+        }
+        .auction-duration {
+            color: #115740;
+        }
+    }
+    .auction-footer {
+        background: #115740;
+        padding: 10px;
+        .auction-entries{
+            color: #fff;
+            font-weight: 700;
+            font-size: 12px;
+        }
+    }
+    
+    
+    
+}

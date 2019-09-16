@@ -1,6 +1,6 @@
 import React              from "react";
 import { Link }           from "react-router-dom";
-import {faSearch}                 from "@fortawesome/free-solid-svg-icons"
+import {faSearch}         from "@fortawesome/free-solid-svg-icons"
 import {FontAwesomeIcon}  from "@fortawesome/react-fontawesome"
 // reactstrap components
 import {

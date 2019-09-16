@@ -1,5 +1,5 @@
 .section {
-    padding: 70px 0;
+    padding: 0px;
     position: relative;
 
     .row + .category {
@@ -220,13 +220,13 @@
 }
 
 .page-header{
-    min-height: 100vh;
+    min-height: 600px;
     max-height: 999px;
     padding: 0;
     color: $white;
     position: relative;
     overflow: hidden;
-    background: url("/static/media/WRLD-EPS-01-0005.577288d6.png");
+    background: url("../../assets/img/WRLD-EPS-01-0005.png");
     background-size: auto;
     background-repeat: repeat no-repeat;
 
