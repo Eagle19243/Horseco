@@ -1,10 +1,17 @@
 .footer{
     padding: 50px 0;
-    border-top: 2px solid #435DB5;
-    background: radial-gradient(ellipse at bottom, #292D61 30%, $background-black 80%);
+    background: #1D1D1D;
 
     [class*="container-"] {
       padding: 0;
+    }
+
+    .btn-wrapper {
+      align-items: center;
+      .btn-neutral{
+        color: #000 !important;
+        font-size: 20px;
+      }
     }
 
     .nav{
@@ -21,24 +28,37 @@
 
     .nav-link {
       color: $white;
-      padding: 10px 0;
-      font-size: $font-size-sm;
-      text-transform: uppercase;
-      text-decoration: none;
-
-      &:hover{
-          text-decoration: none;
-      }
+      padding: 5px 0;
+      font-size: 16px;
+      text-transform: capitalize;
+      text-decoration: underline;
     }
 
     .title {
       text-align: left !important;
     }
 
+    #email {
+      font-size: 14px !important;
+      height: 40px;
+      background: #fff;
+      border-radius: 0px;
+      color: #1D1D1D;
+    }
+
+    .btn-subscribe {
+      background: rgb(17, 87, 64) !important;
+      border-radius: 0px;
+      margin: 0px !important;
+
+      &:hover {
+        background: rgb(17, 87, 64) !important;
+        margin: 0px !important;
+      }
+    }
+
     .copyright{
-        font-size: $font-size-sm;
-        line-height: 1.8;
-        color: $white;
+        margin-top: 100px;
     }
 
     &:after{

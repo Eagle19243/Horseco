@@ -81,8 +81,7 @@ class PagesNavbar extends React.Component {
               title="Designed and Coded by Creative Tim"
               tag={Link}
             >
-              <span>Horseco </span>
-              the horse company
+              <img alt="..." src={require("assets/img/logo.png")}/>
             </NavbarBrand>
             <button
               aria-expanded={this.state.collapseOpen}
