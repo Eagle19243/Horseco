@@ -6,6 +6,7 @@
 
   .container {
     align-items: flex-end;
+    max-width: 100% !important;
   }
 
   .photo {
@@ -281,6 +282,7 @@
               .dropdown-item{
                 margin-top: 0;
                 padding-left: 24px;
+                color: #fff;
               }
             }
           }

@@ -178,7 +178,7 @@ class PagesNavbar extends React.Component {
                 </NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#">
+                <NavLink href="#" className="d-none d-lg-block">
                   <FontAwesomeIcon icon={faSearch} style={{ width: '20px', height: '20px'}}/>
                 </NavLink>
               </NavItem>
