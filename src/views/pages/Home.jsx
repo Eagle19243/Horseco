@@ -70,13 +70,25 @@ class Home extends React.Component {
                   </h2>
                   <Row className="row-grid justify-content-center">
                     <Col md="3" sm="12">
-                      <Auction />
+                      <Auction logo={require("assets/img/logo_keeneland.png")} 
+                        title="KEENELAND"
+                        description="2019 Keeneland November Sale BREEDING STOCK SALE"
+                        duration="Tuesday, November.5 - Saturday. November 16.2019"
+                        entries="ENTRIES CLOSE AUG. 1"/>
                     </Col>
                     <Col md="3" sm="12">
-                      <Auction />
+                      <Auction logo={require("assets/img/logo_keeneland.png")} 
+                        title="KEENELAND"
+                        description="2019 Keeneland November Sale BREEDING STOCK SALE"
+                        duration="Tuesday, November.5 - Saturday. November 16.2019"
+                        entries="ENTRIES CLOSE AUG. 1"/>
                     </Col>
                     <Col md="3" sm="12">
-                      <Auction />
+                      <Auction logo={require("assets/img/logo_keeneland.png")} 
+                        title="KEENELAND"
+                        description="2019 Keeneland November Sale BREEDING STOCK SALE"
+                        duration="Tuesday, November.5 - Saturday. November 16.2019"
+                        entries="ENTRIES CLOSE AUG. 1"/>
                     </Col>
                   </Row>
                   <Row className="row-grid justify-content-center">

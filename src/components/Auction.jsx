@@ -13,24 +13,26 @@ class Auction extends React.Component {
     super(props);
   }
   render() {
+    const {logo, title, description, duration, entries} = this.props;
+    
     return (
       <div className="text-center auction">
         <div className="auction-header">
-            <img className="auction-logo" alt="..." src={require("assets/img/logo_keeneland.png")}/>
-            <h4 className="text-center auction-title">KEENELAND</h4>
+            <img className="auction-logo" alt="..." src={logo}/>
+            <h4 className="text-center auction-title">{title}</h4>
             <hr/>
         </div>
         <div className="auction-body">
             <label className="auction-description">
-                2019 Keeneland November Sale BREEDING STOCK SALE
+                {description}
             </label>
             <label className="auction-duration">
-                Tuesday, November.5 - Saturday. November 16.2019
+                {duration}
             </label>
         </div>
         <div className="auction-footer">
             <Link to="#" className="auction-entries">
-                ENTRIES CLOSE AUG. 1
+                {entries}
             </Link>
         </div>
       </div>
